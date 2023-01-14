@@ -27,7 +27,7 @@ sys.setrecursionlimit(10000)
 
 codes=[".;","abc","def","ghi","jkl","mno","pqrs","tu","vwx","yz"]
 def print_kpc(ques,ans):
-    if len(ques)==0: \\ in some compiler it will run 1 in place of 0 as object in python exclude last value in string
+    if len(ques)==0:  # in some compiler it will run 1 in place of 0 as object in python exclude last value in string
         print(ans)
         return
     ch=ques[0]
