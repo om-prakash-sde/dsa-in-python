@@ -32,3 +32,5 @@ def main():
     
 if __name__ == "__main__":
     main()
+  
+  # checked with input ===3 output ==7
